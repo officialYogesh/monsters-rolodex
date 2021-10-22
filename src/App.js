@@ -21,6 +21,8 @@ class App extends Component {
       .then((response) => {
         response[2].name = "Aparna Sarawadekar";
         response[2].email = "Aparna@yesenia.net";
+        response[1].name = "Yogesh Patil";
+        response[1].email = "Yogesh@september.biz";
         return response;
       })
       .then((users) => this.setState({ monsters: users }));
